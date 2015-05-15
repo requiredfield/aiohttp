@@ -98,6 +98,8 @@ Dependencies
 
 - Python 3.3 and :term:`asyncio` or Python 3.4+
 - *chardet* library
+- Because the latest release of PyPy3 only implements CPython 3.2,
+  which predates ``yield from`` syntax, PyPy is not currently supported.
 
 Contributing
 ------------
